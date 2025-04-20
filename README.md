@@ -29,7 +29,9 @@ Where:
 <numThreads> is the number of concurrent download threads to use
 
 Example
-bashjava MultiThreadedDownloader https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Snake_River_%285mb%29.jpg/2560px-Snake_River_%285mb%29.jpg snake_river.jpg 4
+git bash
+  java MultiThreadedDownloader https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Snake_River_%285mb%29.jpg/2560px-Snake_River_%285mb%29.jpg snake_river.jpg 4
+
 This will download the Snake River image from Wikimedia Commons using 4 threads and save it as "snake_river.jpg".
 How It Works
 
